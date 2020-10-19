@@ -1,0 +1,25 @@
+.horizontal-slider {
+  display: block;
+  width: 100%;
+  overflow-x: scroll;
+  margin-top: 12px;
+  position: relative;
+  margin-left: 160px;
+}
+.slider-container {
+  display: block;
+  white-space: nowrap;
+}
+
+.item {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.item img {
+  width: 100%;
+}
+
+img {
+  height: 600px;
+}

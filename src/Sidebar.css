@@ -1,0 +1,37 @@
+.navbar-2 {
+  width: 100%;
+  display: inline;
+}
+
+.sidenav {
+  background-color: rgb(241, 238, 234);
+  height: 85vh; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 1; /* Stay at the top */
+  left: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 130px;
+}
+
+.sidenav a {
+  font-family: "Playfair Display", serif;
+  padding: 6px 28px 36px 16px;
+  text-decoration: none;
+  top: -10;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}

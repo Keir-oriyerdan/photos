@@ -1,0 +1,29 @@
+.title {
+  margin-right: 30px;
+  margin-left: 40px;
+  margin-top: 15px;
+  width: 60px;
+  height: 60px;
+}
+.navbar {
+  background-color: rgb(241, 238, 234);
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  margin-left: 40%;
+}
+li a {
+  margin: 0 30px;
+  font-family: "Abril Fatface";
+  color: rgb(73, 14, 14);
+}
+.navbar-top {
+  display: flex;
+  align-items: center;
+}
+
+.navbar ul li {
+  display: inline;
+}
