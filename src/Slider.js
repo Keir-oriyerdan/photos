@@ -14,11 +14,11 @@ let urls = [
 
 function Slider() {
   return (
-    <div class="horizontal-slider">
-      <div class="slider-container">
+    <div className="horizontal-slider">
+      <div className="slider-container">
         {urls.map((url) => (
-          <div class="item">
-            <img src={"./slider/" + url} class="slider-image" />
+          <div className="item">
+            <img src={"./slider/" + url} className="slider-image" />
           </div>
         ))}
       </div>

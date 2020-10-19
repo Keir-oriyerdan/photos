@@ -6,11 +6,11 @@ function Menu() {
   return (
     <nav>
       <div>
-        <div class="navbar">
+        <div className="navbar">
           <a href="index.html" title="ImionnSiad">
-            <img class="title" src={logo} alt="logo" />
+            <img className="title" src={logo} alt="logo" />
           </a>
-          <ul class="navbar-top">
+          <ul className="navbar-top">
             <li>
               <a href="index.html">Home</a>
             </li>

@@ -1,15 +1,22 @@
 import React from "react";
 import "./App.css";
-import Menu from "./Menu.js";
-import Sidebar from "./Sidebar.js";
-import Slider from "./Slider.js";
+import Homepage from "./Homepage.js";
+import Home from "./Home.js";
+import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 
-function App() {
+const App = () => {
   return (
-    <>
-      <Menu /> <Sidebar /> <Slider />
-    </>
+    <Router>
+      <Switch>
+        <Route exact path="/">
+          <Homepage />
+        </Route>
+        <Route exact path="/home">
+          <Home />
+        </Route>
+      </Switch>
+    </Router>
   );
-}
+};
 
 export default App;
