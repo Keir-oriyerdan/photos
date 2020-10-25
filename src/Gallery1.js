@@ -24,7 +24,11 @@ let urls = [
 function Gallery1() {
   return (
     <div id="gallery">
-      <img src={"./gallery1/" + url} className="gallery1-image" />
+      {urls.map((url) => (
+        <div className="item">
+          <img src={"./gallery1/" + url} className="gallery1" />
+        </div>
+      ))}
     </div>
   );
 }

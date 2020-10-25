@@ -1,16 +1,13 @@
 import React from "react";
 import "./Sidebar.css";
+import { Link } from "react-router-dom";
 
 function Sidebar() {
   return (
     <div className="navbar-2">
       <div className="sidenav">
-        <a className="textmenu" href="./gallery1.html">
-          Nature
-        </a>
-        <a className="textmenu" href="./gallery2.html">
-          Medieval
-        </a>
+        <Link to="/nature">Nature</Link>
+        <Link to="/medieval">Medieval</Link>
         <a className="textmenu" href="./gallery3.html">
           Wedding
         </a>

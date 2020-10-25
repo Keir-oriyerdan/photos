@@ -1,6 +1,7 @@
 import React from "react";
 import "./Menu.css";
 import logo from "./images/logo.png";
+import { Link } from "react-router-dom";
 
 function Menu() {
   return (
@@ -12,7 +13,7 @@ function Menu() {
           </a>
           <ul className="navbar-top">
             <li>
-              <a href="index.html">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
               <a href="./categories.html">Galleries</a>
