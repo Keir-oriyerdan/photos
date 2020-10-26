@@ -8,9 +8,7 @@ function Sidebar() {
       <div className="sidenav">
         <Link to="/nature">Nature</Link>
         <Link to="/medieval">Medieval</Link>
-        <a className="textmenu" href="./gallery3.html">
-          Wedding
-        </a>
+        <Link to="/wedding">Wedding</Link>
         <a className="textmenu" href="./gallery4.html">
           Portraits
         </a>
