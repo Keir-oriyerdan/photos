@@ -9,21 +9,11 @@ function Sidebar() {
         <Link to="/nature">Nature</Link>
         <Link to="/medieval">Medieval</Link>
         <Link to="/wedding">Wedding</Link>
-        <a className="textmenu" href="./gallery4.html">
-          Portraits
-        </a>
-        <a className="textmenu" href="./gallery5.html">
-          Events
-        </a>
-        <a className="textmenu" href="./gallery6.html">
-          Shows
-        </a>
-        <a className="textmenu" href="./gallery7.html">
-          Concerts
-        </a>
-        <a className="textmenu" href="./gallery8.html">
-          Personal
-        </a>
+        <Link to="/portraits">Portraits</Link>
+        <Link to="/events">Events</Link>
+        <Link to="/shows">Shows</Link>
+        <Link to="/concerts">Concerts</Link>
+        <Link to="/personal">Personal</Link>
       </div>
     </div>
   );

@@ -6,6 +6,11 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Nature from "./Nature";
 import Medieval from "./Medieval";
 import Wedding from "./Wedding";
+import Portraits from "./Portraits";
+import Events from "./Events";
+import Shows from "./Shows";
+import Concerts from "./Concerts";
+import Personal from "./Personal";
 
 const App = () => {
   return (
@@ -25,6 +30,21 @@ const App = () => {
         </Route>
         <Route exact path="/wedding">
           <Wedding />
+        </Route>
+        <Route exact path="/portraits">
+          <Portraits />
+        </Route>
+        <Route exact path="/events">
+          <Events />
+        </Route>
+        <Route exact path="/shows">
+          <Shows />
+        </Route>
+        <Route exact path="/concerts">
+          <Concerts />
+        </Route>
+        <Route exact path="/personal">
+          <Personal />
         </Route>
       </Switch>
     </Router>
