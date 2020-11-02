@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 5px;
+  position: relative;
+  background-color: rgb(241, 238, 234);
+}
+
+.icon img {
+  height: 150px;
+  opacity: 0.5;
+  transition: transform 0.2s;
+}
+
+.icon img:hover {
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+.iconcontainer {
+  margin-top: 20px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  display: flex;
+}
+
+.title {
+  margin-right: 30px;
+  margin-left: 40px;
+  margin-top: 15px;
+  width: 60px;
+  height: 60px;
+}
+
+.navbar {
+  background-color: rgb(241, 238, 234);
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  margin-left: 40%;
+}
+li a {
+  margin: 0 30px;
+  font-family: "Abril Fatface";
+  color: rgb(73, 14, 14);
+}
+.navbar-top {
+  display: flex;
+  align-items: center;
+}
+
+.navbar ul li {
+  display: inline;
+}
+
+.navbar-2 {
+  display: inline;
+}
+
+.menu {
+  margin-left: 50px;
+  padding: 0px;
+  display: flex;
+}
+
+ul {
+  align-items: center;
+}
+.menu li {
+  display: inline;
+  list-style: none;
+  padding: 10px;
+  font-size: 25px;
+  font-family: "Amatic SC", cursive;
+}
+
+.all {
+  display: flex;
+  margin-right: 50px;
+  margin-top: 5%;
+}
+.all .text .portrait {
+  display: inline-block;
+}
+
+.text {
+  size: 25px;
+  text-align: justify;
+  width: 50%;
+  font-family: "Amatic SC", cursive;
+}
+
+.portrait {
+  margin-left: 18%;
+  height: 360px;
+  width: 360px;
+}
+
+.navbar-2 {
+  display: inline;
+}
+
+.sidenav {
+  background-color: rgb(241, 238, 234);
+  height: 85vh; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 1; /* Stay at the top */
+  left: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: -50px;
+  display: flex;
+  top: 100px;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 130px;
+}
+
+.sidenav a {
+  font-family: "Abril Fatface", cursive;
+  padding: 6px 28px 36px 16px;
+  text-decoration: none;
+  top: -10;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+#gallery {
+  margin-top: 130px;
+  margin-left: 160px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}

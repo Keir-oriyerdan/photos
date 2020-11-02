@@ -11,6 +11,7 @@ import Events from "./Events";
 import Shows from "./Shows";
 import Concerts from "./Concerts";
 import Personal from "./Personal";
+import Galleries from "./Galleries";
 
 const App = () => {
   return (
@@ -45,6 +46,9 @@ const App = () => {
         </Route>
         <Route exact path="/personal">
           <Personal />
+        </Route>
+        <Route exact path="/Galleries">
+          <Galleries />
         </Route>
       </Switch>
     </Router>

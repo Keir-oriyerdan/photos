@@ -16,7 +16,7 @@ function Menu() {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="./categories.html">Galleries</a>
+              <Link to="/Galleries">Galleries</Link>
             </li>
             <li>
               <a href="about.html">About</a>
