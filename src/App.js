@@ -12,6 +12,7 @@ import Shows from "./Shows";
 import Concerts from "./Concerts";
 import Personal from "./Personal";
 import Galleries from "./Galleries";
+import About from "./About";
 
 const App = () => {
   return (
@@ -49,6 +50,9 @@ const App = () => {
         </Route>
         <Route exact path="/Galleries">
           <Galleries />
+        </Route>
+        <Route exact path="/About">
+          <About />
         </Route>
       </Switch>
     </Router>
