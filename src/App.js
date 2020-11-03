@@ -13,6 +13,7 @@ import Concerts from "./Concerts";
 import Personal from "./Personal";
 import Galleries from "./Galleries";
 import About from "./About";
+import Contact from "./Contact";
 
 const App = () => {
   return (
@@ -53,6 +54,9 @@ const App = () => {
         </Route>
         <Route exact path="/About">
           <About />
+        </Route>
+        <Route exact path="/Contact">
+          <Contact />
         </Route>
       </Switch>
     </Router>

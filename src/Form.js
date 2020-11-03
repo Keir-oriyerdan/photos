@@ -4,6 +4,7 @@ import background from "./images/background.jpg";
 
 function Form() {
   return (
+    
     <div className="form">
         <img className="sidepic" src={background} alt="homepage" /> 
         <div className="container">
@@ -52,6 +53,7 @@ function Form() {
         </div>
 
       </div>
+    
      
   );
 }
