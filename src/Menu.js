@@ -22,7 +22,7 @@ function Menu() {
               <Link to="/About">About</Link>
             </li>
             <li>
-              <a href="./contact.html">Contact</a>
+              <Link to="/Contact">Contact</Link>
             </li>
             <li>
               <a href="#">Mentions légales</a>
