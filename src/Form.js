@@ -15,6 +15,14 @@ function Form() {
             onChange={this.handleChange}
           />{" "}
         </label>
+        <label>
+          Prénom :
+          <input
+            type="text"
+            value={this.state.value}
+            onChange={this.handleChange}
+          />{" "}
+        </label>
         <input type="submit" value="Envoyer" />
       </form>
     </div>
