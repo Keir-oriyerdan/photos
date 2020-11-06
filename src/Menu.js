@@ -25,7 +25,7 @@ function Menu() {
               <Link to="/Contact">Contact</Link>
             </li>
             <li>
-              <a href="#">Mentions légales</a>
+              <Link to="/Legaldisclaimer">Mentions légales</Link>
             </li>
           </ul>
         </div>

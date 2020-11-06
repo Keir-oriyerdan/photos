@@ -14,6 +14,7 @@ import Personal from "./Personal";
 import Galleries from "./Galleries";
 import About from "./About";
 import Contact from "./Contact";
+import Legaldisclaimer from "./Legaldisclaimer";
 
 const App = () => {
   return (
@@ -57,6 +58,9 @@ const App = () => {
         </Route>
         <Route exact path="/Contact">
           <Contact />
+        </Route>
+        <Route exact path="/Legaldisclaimer">
+          <Legaldisclaimer />
         </Route>
       </Switch>
     </Router>
