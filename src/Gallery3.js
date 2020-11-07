@@ -10,7 +10,7 @@ let columns = [
 
 function Gallery3() {
   return (
-    <div id="gallery">
+    <div className="gallery">
       <div className="row">
         {columns.map((column) => (
           <div className="column">
