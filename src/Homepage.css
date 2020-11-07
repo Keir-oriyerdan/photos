@@ -1,13 +1,15 @@
 .containerlogo {
   position: absolute;
   z-index: 1;
-  height: 20%;
+  height: 10%;
   margin-left: 100vh;
   margin-top: 40vh;
   color: #fff;
   text-align: center;
 }
 .logo {
+  width: 200px;
+  height: 200px;
   padding: 20px;
   transition: transform 0.2s;
   line-height: 30px;
@@ -45,8 +47,7 @@
 .text {
   opacity: 0;
   transition: transform 0.3s;
-  font-family: "Amatic SC", cursive;
-  font-size: 30px;
+
   color: #545b64bd;
 }
 
@@ -54,13 +55,13 @@
   transform: scale(1.1);
   opacity: 1;
   font-family: "Amatic SC", cursive;
-  font-size: 160px;
+  font-size: 25px;
   font-weight: bold;
   color: #062c1291;
   margin-top: 10px;
 }
 
 .homepage {
-  height: 100vh;
+  height: 98vh;
   position: relative;
 }
