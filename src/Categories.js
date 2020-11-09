@@ -7,7 +7,7 @@ let urls = [
   "mariage.png",
   "medieval.png",
   "nature.png",
-  "personal.png",
+  "personnal.png",
   "portraits.png",
   "shows.png",
 ];
