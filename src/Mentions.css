@@ -5,13 +5,14 @@
 }
 
 h1 {
+  font-size: 100px;
   text-align: center;
   font-family: "Amatic SC", cursive;
 }
 
-.text {
+p {
   text-align: justify;
-  size: 25px;
+  font-size: 25px;
   text-align: justify;
   width: 50%;
   font-family: "Amatic SC", cursive;

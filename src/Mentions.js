@@ -3,8 +3,8 @@ import "./Mentions.css";
 
 function Mentions() {
   return (
-    <div class="all">
-      <p class="text">
+    <div className="all">
+      <p className="text">
         <h1>MENTIONS LEGALES </h1>
         <br />
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
