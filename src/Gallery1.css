@@ -48,8 +48,10 @@
   height: 100%;
   transition: all ease 1s;
 }
+
 #gallery > div > img {
-  width: 100%;
+  height: 100vh;
+  width: 650px;
   min-height: 100%;
   transition: all ease 1s;
 }

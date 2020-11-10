@@ -26,7 +26,7 @@ function Gallery1() {
     <div id="gallery">
       {urls.map((url) => (
         <div className="item">
-          <img src={"./gallery1/" + url} className="gallery1" />
+          <img src={"./gallery1/" + url} className="gallery1" alt="" />
         </div>
       ))}
     </div>
