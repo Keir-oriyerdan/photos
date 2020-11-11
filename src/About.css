@@ -2,8 +2,8 @@
   margin-right: 30px;
   margin-left: 40px;
   margin-top: 15px;
-  width: 60px;
-  height: 60px;
+  width: 30%;
+  height: 30%;
 }
 
 .navbar {
@@ -25,41 +25,16 @@ li a {
   align-items: center;
 }
 
-.navbar ul li {
-  display: inline;
-}
-
-.navbar-2 {
-  display: inline;
-}
-
-.menu {
-  margin-left: 50px;
-  padding: 0px;
-  display: flex;
-}
-
-ul {
-  align-items: center;
-}
-.menu li {
-  display: inline;
-  list-style: none;
-  padding: 10px;
-  font-size: 25px;
-  font-family: "Amatic SC", cursive;
-}
-
 .all {
   display: flex;
   margin-right: 50px;
   margin-top: 5%;
 }
-.all .text .portrait {
+.all .lorem .portrait {
   display: inline-block;
 }
 
-.text {
+.lorem {
   size: 25px;
   text-align: justify;
   width: 50%;
@@ -68,6 +43,6 @@ ul {
 
 .portrait {
   margin-left: 18%;
-  height: 360px;
-  width: 360px;
+  height: 100%;
+  width: 100%;
 }
