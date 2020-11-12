@@ -18,7 +18,7 @@ function Slider() {
       <div className="slider-container">
         {urls.map((url) => (
           <div className="item">
-            <img src={"./slider/" + url} className="slider-image" />
+            <img src={"./slider/" + url} className="slider-image" alt="" />
           </div>
         ))}
       </div>

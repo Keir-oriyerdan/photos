@@ -8,9 +8,9 @@ function Menu() {
     <nav>
       <div>
         <div className="navbar">
-          <a href="index.html" title="ImionnSiad">
+          <Link to="/Home">
             <img className="title" src={logo} alt="logo" />
-          </a>
+          </Link>
           <ul className="navbar-top">
             <li>
               <Link to="/">Home</Link>
