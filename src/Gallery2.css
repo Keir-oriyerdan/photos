@@ -17,8 +17,11 @@ body {
 }
 
 .row {
+  display: inline-flex;
   flex-wrap: wrap;
+  flex-direction: row-reverse;
   padding: 0 4px;
+  align-content: flex-start;
 }
 
 /* Create four equal columns that sits next to each other */
@@ -31,8 +34,6 @@ body {
 .column img {
   margin-top: 8px;
   vertical-align: middle;
-  width: 700px;
-  height: 500px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
