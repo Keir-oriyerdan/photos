@@ -1,7 +1,7 @@
 .form {
 }
 .sidepic {
-  width: 90%;
+  width: 90vh;
   margin-top: 100px;
   margin-left: 192px;
   position: relative;
@@ -10,7 +10,6 @@
 input[type="text"],
 select,
 textarea {
-  width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;

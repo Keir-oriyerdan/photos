@@ -17,12 +17,6 @@ body {
   src: local("Amatic SC"), url(./fonts/AmaticSC-Regular.ttf) format("truetype");
 }
 
-@font-face {
-  font-family: "Playfair Display";
-  src: local("Playfair Display"),
-    url(./fonts/PlayfairDisplay-VariableFont_wght.ttf) format("truetype");
-}
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
