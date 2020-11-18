@@ -3,7 +3,7 @@ import "./Form.css";
 import ReactDOM from "react-dom";
 import background from "./images/background.jpg";
 
-class Home extends React.Component {
+class Form extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -43,5 +43,4 @@ class Home extends React.Component {
     );
   }
 }
-
-ReactDOM.render(<Home />, document.querySelector("#App"));
+export default Form;
