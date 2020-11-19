@@ -5,12 +5,13 @@
   height: 90vh;
   margin-top: 10px;
   margin-left: 192px;
-  position: relative;
+  position: fixed;
 }
 
 .formbody {
-  margin-left: 192px;
-  position: fixed;
+  margin-top: 200px;
+  margin-left: 300px;
+  position: absolute;
 }
 
 input[type="text"],
