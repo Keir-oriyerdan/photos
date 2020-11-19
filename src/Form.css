@@ -1,10 +1,16 @@
 .form {
 }
 .sidepic {
-  width: 90vh;
-  margin-top: 100px;
+  width: 90%;
+  height: 90vh;
+  margin-top: 10px;
   margin-left: 192px;
   position: relative;
+}
+
+.formbody {
+  margin-left: 192px;
+  position: fixed;
 }
 
 input[type="text"],
