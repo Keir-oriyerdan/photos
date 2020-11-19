@@ -18,6 +18,7 @@ function Categories() {
       {urls.map((url) => (
         <div className="item">
           <img
+            className="icon"
             src={"./categories/" + url}
             className="categories-image"
             alt="categories"

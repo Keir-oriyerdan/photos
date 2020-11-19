@@ -3,21 +3,21 @@
 }
 body {
   margin: 5px;
-  position: relative;
+
   background-color: rgb(241, 238, 234);
 }
 
-img {
-  height: 120px;
+.categories-image {
+  height: 70px;
 }
 
-.icon img {
+img .icon {
   height: 50px;
   opacity: 0.5;
   transition: transform 0.2s;
 }
 
-.icon img:hover {
+.icon:hover {
   opacity: 1;
   transform: scale(1.2);
 }
