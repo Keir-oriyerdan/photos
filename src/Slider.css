@@ -24,3 +24,27 @@
 img {
   height: 600px;
 }
+
+.categories-image {
+  height: 130px;
+}
+
+.icon {
+  height: 120px;
+  opacity: 0.5;
+  transition: transform 0.2s;
+}
+
+.icon:hover {
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+.iconcontainer {
+  margin-top: 20px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  display: flex;
+  margin-left: 170px;
+  margin-top: 80px;
+}
