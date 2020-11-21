@@ -32,7 +32,7 @@ function Categories() {
             alt="categories"
           />
           <Router>
-            <Route exact path="./nature.png">
+            <Route exact path="/nature">
               <Nature />
             </Route>
             <Route exact path="/medieval">
