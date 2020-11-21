@@ -6,9 +6,7 @@ import background from "./images/background.jpg";
 class Form extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      nom: ["demo2", "demo1"],
-    };
+    this.state = {};
     this.handleChange = this.handleChange.bind(this);
   }
 
@@ -23,6 +21,11 @@ class Form extends React.Component {
       <div className="form">
         <img className="sidepic" src={background} alt="homepage" />
         <div className="formbody">
+          <select value={this.state.nom}>
+            <option value="demo1">Mr</option>
+            <option value="demo2">Mme</option>
+            <option value="demo3">Mlle</option>
+          </select>
           {JSON.stringify(this.state.nom)}
           <label htmlFor="Name">Nom :</label>
           <input
@@ -35,14 +38,30 @@ class Form extends React.Component {
           />
           <label htmlFor="Name">Prenom :</label>
           <input type="text" id="prenom" name="prenom" />
-          <select value={this.state.nom}>
-            <option value="demo1">Démo 1</option>
-            <option value="demo2">Démo 2</option>
-            <option value="demo3">Démo 3</option>
-          </select>
+
+          <div>
+            <label htmlFor="Name">Objet :</label>
+            <select value={this.state.nom}>
+              <option value="demo1">Info</option>
+              <option value="demo2">Devis</option>
+              <option value="demo3">Autre</option>
+            </select>
+          </div>
+          <form onSubmit={this.handleSubmit}>
+            <label>
+              Text:
+              <textarea
+                value={this.state.value}
+                onChange={this.handleChange}
+              />{" "}
+            </label>
+
+            <input type="submit" value="Envoyer" />
+          </form>
         </div>
       </div>
     );
   }
 }
+
 export default Form;
