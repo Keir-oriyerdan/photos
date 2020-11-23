@@ -1,11 +1,11 @@
 .all {
   margin-left: 20%;
   margin-right: 50px;
-  margin-top: 5%;
+  margin-top: 5px;
 }
 
 h1 {
-  font-size: 100px;
+  font-size: 50px;
   text-align: center;
   font-family: "Amatic SC", cursive;
 }
@@ -16,4 +16,9 @@ p {
   text-align: justify;
   width: 50%;
   font-family: "Amatic SC", cursive;
+}
+
+.mentions {
+  width: 130vh;
+  color: black;
 }

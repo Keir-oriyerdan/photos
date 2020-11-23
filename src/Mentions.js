@@ -4,7 +4,7 @@ import "./Mentions.css";
 function Mentions() {
   return (
     <div className="all">
-      <p className="text">
+      <p className="mentions">
         <h1>MENTIONS LEGALES </h1>
         <br />
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
