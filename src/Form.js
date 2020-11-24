@@ -49,13 +49,9 @@ class Form extends React.Component {
           </div>
           <form onSubmit={this.handleSubmit}>
             <label>
-              Text:
-              <textarea
-                value={this.state.value}
-                onChange={this.handleChange}
-              />{" "}
+              <textarea value={this.state.value} onChange={this.handleChange} />{" "}
             </label>
-
+            <br></br>
             <input type="submit" value="Envoyer" />
           </form>
         </div>
