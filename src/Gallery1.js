@@ -1,5 +1,6 @@
 import React from "react";
 import "./Gallery1.css";
+import { PopupboxManager, PopupboxContainer } from "react-popupbox";
 
 let urls = [
   "01.jpg",
@@ -33,4 +34,27 @@ function Gallery1() {
   );
 }
 
+export class Example extends Gallery1 {
+  openPopupbox() {
+    const content = (
+      <div id="gallery">
+        {urls.map((url) => (
+          <div className="item">
+            <img src={"./gallery1/" + url} className="gallery1" alt="" />
+          </div>
+        ))}
+      </div>
+    );
+    PopupboxManager.open({ content });
+  }
+
+  render() {
+    return (
+      <div>
+        <button onClick={this.openPopupbox}>Click me</button>
+        <Gallery1 />
+      </div>
+    );
+  }
+}
 export default Gallery1;

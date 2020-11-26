@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(38, 38, 54);
+}
+
 .title {
   margin-right: 30px;
   margin-left: 40px;
@@ -38,7 +42,7 @@ li a {
   size: 25px;
   text-align: justify;
   width: 50%;
-  color: black;
+  color: rgb(217, 229, 230);
   font-family: "Amatic SC", cursive;
 }
 
