@@ -37,12 +37,11 @@ function Gallery1() {
 export class Example extends Gallery1 {
   openPopupbox() {
     const content = (
-      <div id="gallery">
-        {urls.map((url) => (
-          <div className="item">
-            <img src={"./gallery1/" + url} className="gallery1" alt="" />
-          </div>
-        ))}
+      <div>
+        <p className="quotes">Work like you don't need the money.</p>
+        <p className="quotes">Dance like no one is watching.</p>
+        <p className="quotes">And love like you've never been hurt.</p>
+        <span className="quotes-from">― Mark Twain</span>
       </div>
     );
     PopupboxManager.open({ content });
