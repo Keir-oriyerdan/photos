@@ -12,7 +12,7 @@
   margin-top: 130px;
   margin-left: 530px;
   position: absolute;
-  height: 400px;
+  height: 470px;
   border-radius: 4px;
   padding: 12px 12px 12px 12px;
   background-color: rgb(226, 225, 219);
@@ -36,6 +36,9 @@ label {
 textarea {
   height: 200px;
   width: 680px;
+}
+.radio {
+  display: inline-block;
 }
 
 input[type="submit"] {

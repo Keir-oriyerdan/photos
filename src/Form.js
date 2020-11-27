@@ -47,6 +47,24 @@ class Form extends React.Component {
               <option value="demo3">Autre</option>
             </select>
           </div>
+          <div className="radio">
+            <label>
+              <input type="radio" value="option1" checked={true} />
+              Option 1
+            </label>
+          </div>
+          <div className="radio">
+            <label>
+              <input type="radio" value="option2" />
+              Option 2
+            </label>
+          </div>
+          <div className="radio">
+            <label>
+              <input type="radio" value="option3" />
+              Option 3
+            </label>
+          </div>
           <form onSubmit={this.handleSubmit}>
             <label>
               <textarea value={this.state.value} onChange={this.handleChange} />{" "}
