@@ -27,7 +27,7 @@ class Form extends React.Component {
             <option value="demo3">Mlle</option>
           </select>
           {JSON.stringify(this.state.nom)}
-          <label htmlFor="Name">Nom :</label>
+          <label htmlFor="Name">Last name :</label>
           <input
             type="text"
             id="nom"
@@ -36,38 +36,60 @@ class Form extends React.Component {
             onChange={this.handleChange}
             multiple
           />
-          <label htmlFor="Name">Prenom :</label>
+          <label htmlFor="Name">First name :</label>
           <input type="text" id="prenom" name="prenom" />
-
           <div>
-            <label htmlFor="Name">Objet :</label>
-            <select value={this.state.nom}>
-              <option value="demo1">Info</option>
-              <option value="demo2">Devis</option>
-              <option value="demo3">Autre</option>
-            </select>
+            <div className="objetradio">
+              <label htmlFor="Name">Object :</label>
+              <select value={this.state.nom}>
+                <option value="demo1">Infos</option>
+                <option value="demo2">Cost estimate</option>
+                <option value="demo3">Other</option>
+              </select>
+            </div>
+            <div className="radio">
+              <label>
+                <input type="radio" value="option1" checked={true} />
+                Past
+              </label>
+            </div>
+            <div className="radio">
+              <label>
+                <input type="radio" value="option2" />
+                Present
+              </label>
+            </div>
+            <div className="radio">
+              <label>Future</label>
+            </div>
+            <form method="post" action="traitement.php">
+              <p>
+                <label for="pays" className="pays">
+                  Where you come from ? ?
+                </label>
+                <br />
+                <select name="pays" id="pays">
+                  <option value="france">France</option>
+                  <option value="espagne">Spain</option>
+                  <option value="italie">Italy</option>
+                  <option value="royaume-uni">UK</option>
+                  <option value="canada">Canada</option>
+                  <option value="etats-unis">USA</option>
+                  <option value="chine">China</option>
+                  <option value="japon">Japan</option>
+                </select>
+              </p>
+            </form>
           </div>
-          <div className="radio">
-            <label>
-              <input type="radio" value="option1" checked={true} />
-              Option 1
-            </label>
-          </div>
-          <div className="radio">
-            <label>
-              <input type="radio" value="option2" />
-              Option 2
-            </label>
-          </div>
-          <div className="radio">
-            <label>
-              <input type="radio" value="option3" />
-              Option 3
-            </label>
-          </div>
+
           <form onSubmit={this.handleSubmit}>
             <label>
-              <textarea value={this.state.value} onChange={this.handleChange} />{" "}
+              {" "}
+              <p className="pays">What is your request ?</p>
+              <textarea
+                value={this.state.value}
+                onChange={this.handleChange}
+              />{" "}
             </label>
             <br></br>
             <input type="submit" value="Envoyer" />

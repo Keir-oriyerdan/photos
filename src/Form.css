@@ -1,4 +1,5 @@
-.form {
+.objetradio {
+  display: inline-block;
 }
 .sidepic {
   width: 90%;
@@ -8,11 +9,17 @@
   position: fixed;
 }
 
+.pays {
+  font-size: 15px;
+  color: black;
+  margin-top: -30px;
+}
+
 .formbody {
-  margin-top: 130px;
+  margin-top: 50px;
   margin-left: 530px;
   position: absolute;
-  height: 470px;
+  height: 550px;
   border-radius: 4px;
   padding: 12px 12px 12px 12px;
   background-color: rgb(226, 225, 219);
