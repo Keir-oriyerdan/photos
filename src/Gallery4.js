@@ -1,25 +1,35 @@
 import React from "react";
 import "./Gallery2.css";
+import { render } from "react-dom";
+import Gallery from "react-grid-gallery";
 
-let columns = [
-  ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg"],
-  ["06.jpg", "07.jpg", "08.jpg", "09.jpg", "10.jpg"],
+const IMAGES = [
+  {
+    src: "01.jpg",
+    thumbnail: "01.jpg",
+    thumbnailWidth: 320,
+    thumbnailHeight: 174,
+    isSelected: true,
+    caption: "After Rain (Jeshu John - designerspics.com)",
+  },
+  {
+    src: "02.jpg",
+    thumbnail: "02.jpg",
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    tags: [
+      { value: "Ocean", title: "Ocean" },
+      { value: "People", title: "People" },
+    ],
+    caption: "Boats (Jeshu John - designerspics.com)",
+  },
+
+  {
+    src: "01.jpg",
+    thumbnail: "01.jpg",
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+  },
 ];
 
-function Gallery4() {
-  return (
-    <div className="gallery">
-      <div className="row">
-        {columns.map((column) => (
-          <div className="column">
-            {column.map((url) => (
-              <img src={"./gallery4/" + url} alt="" />
-            ))}
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-}
-
-export default Gallery4;
+render(<Gallery images={IMAGES} />, document.getElementById("example-0"));

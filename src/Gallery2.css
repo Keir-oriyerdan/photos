@@ -8,13 +8,12 @@ body {
 
 .gallery {
   background-color: rgb(38, 38, 54);
-  width: 100%;
-  height: 100%;
+  width: 990vh;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, 5vw);
   grid-gap: 15px;
-  margin-left: 200px;
+  margin-left: 150px;
 }
 
 .row {
@@ -24,7 +23,10 @@ body {
   padding: 0 4px;
   align-content: flex-start;
 }
-
+img {
+  width: 500px;
+  height: 500px;
+}
 /* Create four equal columns that sits next to each other */
 .column {
   flex: 100%;
