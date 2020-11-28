@@ -8,7 +8,7 @@ import Events from "./Events";
 import Shows from "./Shows";
 import Concerts from "./Concerts";
 import Personal from "./Personal";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 let urls = [
   "concerts.png",
@@ -25,12 +25,8 @@ function Categories() {
   return (
     <div class="iconcontainer">
       {urls.map((url) => (
-        <div className="icon">
-          <img
-            src={"./categories/" + url}
-            className="categories-image"
-            alt="categories"
-          />
+        <div className="">
+          <img className="icon" src={"./categories/" + url} alt="categories" />
           <Router>
             <Route exact path="/nature">
               <Nature />
