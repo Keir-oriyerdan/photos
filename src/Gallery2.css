@@ -8,7 +8,7 @@ body {
 
 .gallery {
   background-color: rgb(38, 38, 54);
-  width: 990vh;
+
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, 5vw);
