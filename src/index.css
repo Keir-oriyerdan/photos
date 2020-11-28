@@ -113,6 +113,10 @@ ul {
   display: inline;
 }
 
+.navbar {
+  background-color: rgb(7, 28, 37);
+}
+
 .sidenav {
   background-color: rgb(7, 28, 37);
   height: 85vh; /* Full-height: remove this if you want "auto" height */

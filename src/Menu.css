@@ -10,7 +10,7 @@ nav .allnavbar {
   width: 60px;
   height: 60px;
 }
-.navbar {
+div .navbar {
   background-color: rgb(38, 38, 54);
   display: flex;
   align-items: center;
