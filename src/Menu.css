@@ -7,13 +7,13 @@ nav .allnavbar {
   margin-right: 30px;
   margin-left: 40px;
   margin-top: 15px;
-  width: 60px;
-  height: 60px;
 }
 div .navbar {
   background-color: rgb(38, 38, 54);
   display: flex;
   align-items: center;
+  z-index: 1000;
+  position: fixed;
 }
 .navbar-top {
   background-color: rgb(38, 38, 54);

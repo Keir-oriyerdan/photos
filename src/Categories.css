@@ -27,6 +27,7 @@ img .icon {
   flex-wrap: wrap;
   flex-direction: row;
   display: flex;
-  margin-left: 170px;
-  margin-top: 80px;
+  margin-left: 190px;
+  margin-top: 12px;
+  padding-top: 160px;
 }

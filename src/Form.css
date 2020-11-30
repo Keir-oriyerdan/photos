@@ -3,7 +3,7 @@
 }
 .sidepic {
   width: 90%;
-  height: 90vh;
+  height: 100vh;
   margin-top: 10px;
   margin-left: 192px;
   position: fixed;
@@ -16,7 +16,7 @@
 }
 
 .formbody {
-  margin-top: 50px;
+  margin-top: 90px;
   margin-left: 530px;
   position: absolute;
   height: 550px;
