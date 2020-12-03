@@ -7,6 +7,24 @@ nav .allnavbar {
   margin-right: 30px;
   margin-left: 40px;
   margin-top: 15px;
+  height: 20%;
+}
+
+img .title {
+  height: 70px;
+}
+.textlogocontainer {
+  width: 190px;
+  height: 90px;
+  margin-left: 90px;
+}
+
+p {
+  width: 100%;
+}
+.textlogo {
+  font-size: 20px;
+  font-weight: bolder;
 }
 div .navbar {
   background-color: rgb(38, 38, 54);
@@ -14,13 +32,11 @@ div .navbar {
   align-items: center;
   z-index: 1000;
   position: fixed;
+  margin-left: 20px;
 }
-.navbar-top {
-  background-color: rgb(38, 38, 54);
-  margin-right: 5%;
-}
-ul {
-  margin-left: 20%;
+
+ul .navbar-top {
+  margin-left: -20%;
 }
 li a {
   margin: 0 50px;
@@ -35,6 +51,7 @@ a:visited {
   background-color: rgb(38, 38, 54);
   display: flex;
   align-items: center;
+  margin-left: 39%;
 }
 
 .navbar ul li {
