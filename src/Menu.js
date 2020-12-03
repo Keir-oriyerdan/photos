@@ -11,9 +11,9 @@ function Menu() {
           <Link to="/Home">
             <img className="title" src={logo} alt="logo" />
           </Link>
-          <div className="textlogocontainer">
-            <p className="textlogo">IMIONN SIAD</p>
-          </div>
+
+          <p className="textlogo">IMIONN SIAD</p>
+
           <ul className="navbar-top">
             <li>
               <Link to="/">Home</Link>
