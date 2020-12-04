@@ -20,7 +20,6 @@ div .navbar {
   display: flex;
   align-items: center;
   z-index: 1000;
-  position: fixed;
   margin-left: 20px;
 }
 

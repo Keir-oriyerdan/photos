@@ -44,14 +44,13 @@
   box-shadow: 10px 10px 10px rgba(179, 214, 151, 0.178);
 }
 
-.text {
+p .textlogo {
   opacity: 0;
   transition: transform 0.3s;
-
   color: #545b64bd;
 }
 
-.containerlogo:hover .text {
+.containerlogo:hover .textlogo {
   transform: scale(1.1);
   opacity: 1;
   font-family: "Amatic SC", cursive;

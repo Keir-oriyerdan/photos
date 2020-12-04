@@ -11,7 +11,7 @@ function Homepage() {
         <Link to="/home">
           <img className="logo" src={logo} alt="logo" />
         </Link>
-        <p className="text">IMIONN SIAD</p>
+        <p className="textlogo">IMIONN SIAD</p>
       </div>
       <img className="homepage" src={background} alt="background" />
     </div>
