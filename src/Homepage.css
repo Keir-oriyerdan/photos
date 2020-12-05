@@ -44,10 +44,11 @@
   box-shadow: 10px 10px 10px rgba(179, 214, 151, 0.178);
 }
 
-p .textlogo {
+.textlogo {
   opacity: 0;
   transition: transform 0.3s;
   color: #545b64bd;
+  margin-left: 60%;
 }
 
 .containerlogo:hover .textlogo {
