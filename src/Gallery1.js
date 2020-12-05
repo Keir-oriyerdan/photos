@@ -1,6 +1,6 @@
 import React from "react";
 import "./Gallery1.css";
-import { PopupboxManager, PopupboxContainer } from "react-popupbox";
+import { PopupboxManager } from "react-popupbox";
 
 let urls = [
   "01.jpg",
