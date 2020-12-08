@@ -6,23 +6,15 @@ img .title {
   height: 30%;
 }
 
-p {
+p .textlogo {
   display: inline;
-}
-
-.textlogo {
-  font-size: 25px;
+  color: azure;
+  font-size: 13px;
   font-weight: bolder;
   margin-left: 30px;
-  color: azure;
+  font-family: "Amatic SC", cursive;
 }
 
-h1 .textlogo {
-  color: azure;
-  font-size: 25px;
-  font-weight: bolder;
-  margin-left: 30px;
-}
 div .navbar {
   background-color: rgb(38, 38, 54);
   display: flex;
