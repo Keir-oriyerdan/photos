@@ -2,7 +2,7 @@
   position: absolute;
   z-index: 1;
   height: 10%;
-  margin-left: 100vh;
+  margin-left: 103vh;
   margin-top: 40vh;
   color: #fff;
   text-align: center;
@@ -44,14 +44,14 @@
   box-shadow: 10px 10px 10px rgba(179, 214, 151, 0.178);
 }
 
-.textlogo {
+.textpseudo {
   opacity: 0;
   transition: transform 0.3s;
   color: #545b64bd;
-  margin-left: 60%;
+  margin-left: 14%;
 }
 
-.containerlogo:hover .textlogo {
+.containerlogo:hover .textpseudo {
   transform: scale(1.1);
   opacity: 1;
   font-family: "Amatic SC", cursive;
