@@ -3,7 +3,7 @@ import "./Mentions.css";
 
 function Mentions() {
   return (
-    <div className="all">
+    <div className="allmentions">
       <p className="mentions">
         <h1>MENTIONS LEGALES </h1>
         <br />

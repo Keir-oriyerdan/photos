@@ -29,11 +29,10 @@ li a {
   align-items: center;
 }
 
-.all {
+.allabout {
   display: flex;
-  margin-right: 50px;
+  margin-left: 180px;
   margin-top: 5%;
-  padding-top: 160px;
 }
 .all .lorem .portrait {
   display: inline-block;
@@ -41,6 +40,7 @@ li a {
 
 .lorem {
   size: 25px;
+  margin-top: 90px;
   text-align: justify;
   width: 50%;
   color: rgb(217, 229, 230);
