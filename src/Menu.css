@@ -12,6 +12,7 @@ img .title {
   font-size: 22px;
   font-weight: bolder;
   margin-left: -60px;
+  padding-right: -34px;
   text-decoration: none;
   font-family: "Amatic SC", cursive;
 }
@@ -29,13 +30,32 @@ div .navbar {
 }
 
 ul .navbar-top {
-  margin-right: -30%;
+  margin-left: -30%;
   text-decoration: none;
+  width: 100px;
 }
 li a {
   margin: 0 50px;
   font-family: "Abril Fatface";
   text-decoration: none;
+}
+
+ul li .rsicon {
+  display: inline;
+  padding: 5px;
+  margin-left: 23px;
+  padding-left: 34px;
+}
+
+.rsicon {
+  height: 34px;
+  width: 34px;
+  display: inline-block;
+}
+
+.rs-icons .rsicon {
+  display: inline-block;
+  padding: 5px;
 }
 
 a:visited {
@@ -62,7 +82,6 @@ a:active {
   background-color: rgb(38, 38, 54);
   display: flex;
   align-items: center;
-  margin-left: 39%;
 }
 
 .navbar ul li {

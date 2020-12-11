@@ -2,6 +2,11 @@ import React from "react";
 import "./Menu.css";
 import logo from "./images/logo.png";
 import { Link } from "react-router-dom";
+import fb from "./images/facebook.png";
+import twitter from "./images/twitter.png";
+import YT from "./images/youtube.png";
+import Insta from "./images/instagram.png";
+import In from "./images/linkedin.png";
 
 function Menu() {
   return (
@@ -14,6 +19,26 @@ function Menu() {
           <Link to="/Home">
             <p className="textlogo">IMIONN SIAD</p>
           </Link>
+          <div>
+            <ul className="rs-icons">
+              <li>
+                <img className="rsicon" src={fb} alt="fb" />
+              </li>
+              <li>
+                <img className="rsicon" src={twitter} alt="twitter" />
+              </li>
+              <li>
+                <img className="rsicon" src={YT} alt="yt" />
+              </li>
+              <li>
+                <img className="rsicon" src={Insta} alt="insta" />
+              </li>
+              <li>
+                <img className="rsicon" src={In} alt="in" />
+              </li>
+            </ul>
+          </div>
+
           <ul className="navbar-top">
             <li>
               <Link to="/">Home</Link>
