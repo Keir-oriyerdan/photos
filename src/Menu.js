@@ -6,7 +6,6 @@ import fb from "./images/facebook.png";
 import twitter from "./images/twitter.png";
 import YT from "./images/youtube.png";
 import Insta from "./images/instagram.png";
-import In from "./images/linkedin.png";
 
 function Menu() {
   return (
@@ -20,7 +19,7 @@ function Menu() {
             <p className="textlogo">IMIONN SIAD</p>
           </Link>
           <div>
-            <ul className="rs-icons">
+            <ul className="rs-container">
               <li>
                 <img className="rsicon" src={fb} alt="fb" />
               </li>
@@ -28,13 +27,10 @@ function Menu() {
                 <img className="rsicon" src={twitter} alt="twitter" />
               </li>
               <li>
-                <img className="rsicon" src={YT} alt="yt" />
-              </li>
-              <li>
                 <img className="rsicon" src={Insta} alt="insta" />
               </li>
               <li>
-                <img className="rsicon" src={In} alt="in" />
+                <img className="rsicon" src={YT} alt="yt" />
               </li>
             </ul>
           </div>

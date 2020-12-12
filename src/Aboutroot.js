@@ -5,7 +5,7 @@ import portrait from "./images/portrait.png";
 function Aboutroot() {
   return (
     <div className="allabout">
-      <img className="title" src={portrait} alt="portrait" />
+      <img className="idphoto" src={portrait} alt="portrait" />
       <p className="lorem">
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
