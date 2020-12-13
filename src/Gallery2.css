@@ -13,6 +13,8 @@ body {
   grid-template-rows: repeat(8, 5vw);
   grid-gap: 15px;
   margin-left: 150px;
+  margin-top: -50px;
+  position: relative;
 }
 
 .row {

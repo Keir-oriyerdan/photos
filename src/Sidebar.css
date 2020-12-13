@@ -5,26 +5,26 @@
 
 .sidenav {
   background-color: rgb(38, 38, 54);
-  height: 87vh; /* Full-height: remove this if you want "auto" height */
+  /* Full-height: remove this if you want "auto" height */
   width: 160px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
-  top: 1; /* Stay at the top */
+  top: 75px; /* Stay at the top */
   left: 0;
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  margin-bottom: 130px;
+  margin-top: 70px;
 }
 
 .sidenav a {
   font-family: "Abril Fatface", serif;
-  padding: 6px 28px 36px 16px;
+  padding: 1px 1px 30px 26px;
   text-decoration: none;
-  top: -10;
-  font-size: 25px;
+
+  line-height: -40vh;
+  font-size: 20px;
   color: #e9e0e0;
   display: block;
 }
