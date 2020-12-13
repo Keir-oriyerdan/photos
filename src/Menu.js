@@ -12,12 +12,6 @@ function Menu() {
     <nav>
       <div>
         <div className="navbar">
-          <Link to="/Home">
-            <img className="title" src={logo} alt="logo" />
-          </Link>
-          <Link to="/Home">
-            <p className="textlogo">IMIONN SIAD</p>
-          </Link>
           <div>
             <ul className="rs-container">
               <li>
@@ -33,6 +27,12 @@ function Menu() {
                 <img className="rsicon" src={YT} alt="yt" />
               </li>
             </ul>
+          </div>
+          <div className="logo-container">
+            <Link to="/Home">
+              <img className="title" src={logo} alt="logo" />
+              <p className="textlogo">IMIONN SIAD</p>
+            </Link>
           </div>
 
           <ul className="navbar-top">

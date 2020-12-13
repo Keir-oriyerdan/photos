@@ -2,13 +2,14 @@ body {
   background-color: rgb(38, 38, 54);
 }
 
+/*Menu*/
+
 .title {
-  margin-right: 30px;
-  margin-left: 40px;
-  margin-top: 15px;
-  width: 10%;
-  height: 10%;
+  margin-right: 50%;
+  width: 20%;
+  height: 20%;
 }
+/*Menu*/
 
 .idphoto {
   width: 300px;

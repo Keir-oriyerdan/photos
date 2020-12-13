@@ -1,67 +1,29 @@
-img .title {
+.navbar {
+  margin-bottom: 40px;
+}
+
+.logo-container {
+  margin-left: 400px;
+}
+
+.title {
   background-color: rgb(38, 38, 54);
-  margin-right: 30px;
-  margin-left: 40px;
-  margin-top: 15px;
-  height: 30%;
+  margin-left: 50%;
+  height: 80%;
 }
 
 .textlogo {
   display: inline;
   color: azure;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: bolder;
-  margin-left: -60px;
-  padding-right: -34px;
   text-decoration: none;
+  margin-left: 175px;
   font-family: "Amatic SC", cursive;
 }
 
-p {
-  text-decoration: none;
-}
-
-div .navbar {
-  background-color: rgb(38, 38, 54);
-  display: flex;
-  align-items: center;
-  z-index: 1000;
-  margin-left: 20px;
-}
-
-ul .navbar-top {
-  text-decoration: none;
-  width: 100px;
-  display: inline-block;
-}
-
-li a {
-  margin: 0 50px;
-  font-family: "Abril Fatface";
-  text-decoration: none;
-}
-
-ul li .rsicon {
-  display: inline-block;
-  padding: 5px;
-  margin-left: 23px;
-  padding-left: 34px;
-}
-
-.rsicon {
-  height: 34px;
-  width: 34px;
-  display: inline-block;
-}
-
-ul .rs-container li {
-  display: inline-block;
-  margin-right: 45px;
-}
-
-.rs-container .rsicon {
-  display: inline-block;
-  padding: 5px;
+p .textlogo {
+  margin-left: 55px;
 }
 
 .navbar-top {
@@ -75,23 +37,62 @@ ul .rs-container li {
   display: inline;
   text-decoration: none;
 }
+li a {
+  margin: 0 50px;
+  font-family: "Abril Fatface";
+  text-decoration: none;
+}
+
+div .navbar {
+  background-color: rgb(38, 38, 54);
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+  margin-left: 20px;
+}
+
+ul .rs-container {
+  display: inline-block;
+  margin-right: 45px;
+}
+
+.rs-container .rsicon {
+  display: inline-block;
+  padding: 5px;
+}
+
+ul li img .rsicon {
+  display: inline-block;
+  padding: 5px;
+  margin-left: 23px;
+  padding-left: 34px;
+}
+
+.rsicon {
+  height: 25px;
+  width: 25px;
+}
 
 a:visited {
   color: #d8d5df;
   text-decoration: none;
+  width: auto;
 }
 
 a:link {
   color: #d8d5df;
   text-decoration: none;
+  width: auto;
 }
 
 a:hover {
   color: #d8d5df;
   text-decoration: none;
+  width: auto;
 }
 
 a:active {
   color: #d8d5df;
   text-decoration: none;
+  width: auto;
 }
