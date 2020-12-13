@@ -28,30 +28,31 @@ function Menu() {
               </li>
             </ul>
           </div>
-          <div className="logo-container">
+          <div className="header-title-logo">
             <Link to="/Home">
               <img className="title" src={logo} alt="logo" />
               <p className="textlogo">IMIONN SIAD</p>
             </Link>
           </div>
-
-          <ul className="navbar-top">
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/Galleries">Galleries</Link>
-            </li>
-            <li>
-              <Link to="/About">About</Link>
-            </li>
-            <li>
-              <Link to="/Contact">Contact</Link>
-            </li>
-            <li>
-              <Link to="/Legaldisclaimer">Mentions légales</Link>
-            </li>
-          </ul>
+          <div className="header-navbar">
+            <ul className="navbar-top">
+              <li>
+                <Link to="/">Home</Link>
+              </li>
+              <li>
+                <Link to="/Galleries">Galleries</Link>
+              </li>
+              <li>
+                <Link to="/About">About</Link>
+              </li>
+              <li>
+                <Link to="/Contact">Contact</Link>
+              </li>
+              <li>
+                <Link to="/Legaldisclaimer">Mentions légales</Link>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </nav>
