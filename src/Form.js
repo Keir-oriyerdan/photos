@@ -95,6 +95,25 @@ class Form extends React.Component {
             <input type="submit" value="Envoyer" />
           </form>
         </div>
+        <div className="container-newletter">
+          <label htmlFor="mail">E-mail :</label>
+          <input
+            type="text"
+            value={this.state.mail}
+            onChange={this.handleChange}
+            id="mail"
+            name="mail"
+          />
+          <br></br>
+          <label htmlFor="newletter">S'abonner à la newletter :</label>
+          <input
+            type="checkbox"
+            checked={this.state.newletter}
+            onChange={this.handleChange}
+            id="newletter"
+            name="newletter"
+          />
+        </div>
       </div>
     );
   }
