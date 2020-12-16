@@ -14,12 +14,6 @@ class Form extends React.Component {
   }
 
   handleChange(e) {
-    this.setState({
-      nom: Array.from(e.target.selectedOptions).map((o) => o.value),
-    });
-  }
-
-  handleChange(e) {
     const mail = e.target.name;
     const type = e.target.type;
     const value = type === "checked" ? e.target.checked : e.target.value;
