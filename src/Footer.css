@@ -8,17 +8,15 @@ footer {
   margin-left: 50%;
 }
 
-.rs-container {
+.rs-container2 {
   margin-right: 70%;
 }
 
-.rs-container .rsicon {
-  display: inline-block;
+.rs-container2 .rsicon {
   padding: 5px;
 }
 
 img .rsicon {
-  display: inline-block;
   padding: 23px;
   margin-left: 23px;
   padding-left: 34px;

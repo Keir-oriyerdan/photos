@@ -9,7 +9,7 @@ function Footer() {
   return (
     <footer>
       <p>What the fuck</p>
-      <div className="rs-container">
+      <div className="rs-container2">
         <img className="rsicon" src={fb} alt="fb" />
 
         <img className="rsicon" src={twitter} alt="twitter" />
