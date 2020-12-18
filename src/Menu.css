@@ -65,6 +65,7 @@ ul .rs-container {
   display: inline-block;
   margin-right: 45px;
   margin-top: -54px;
+  text-decoration: none;
 }
 
 .rs-container .rsicon {

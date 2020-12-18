@@ -4,5 +4,29 @@ footer {
   position: relative;
   font-size: 17px;
   text-align: center;
-  width: 100%;
+  margin-top: 90%;
+  margin-left: 50%;
 }
+
+.rs-container {
+  margin-right: 70%;
+}
+
+.rs-container .rsicon {
+  display: inline-block;
+  padding: 5px;
+}
+
+img .rsicon {
+  display: inline-block;
+  padding: 23px;
+  margin-left: 23px;
+  padding-left: 34px;
+}
+
+.rsicon {
+  height: 25px;
+  width: 25px;
+}
+
+/* next code*/
