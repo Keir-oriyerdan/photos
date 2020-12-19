@@ -40,7 +40,7 @@ li a {
 .allabout {
   display: flex;
   margin-left: 180px;
-  margin-top: 5%;
+  padding-top: 20%;
 }
 .all .lorem .portrait {
   display: inline-block;
