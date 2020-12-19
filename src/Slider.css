@@ -1,9 +1,10 @@
 .horizontal-slider {
   display: block;
   width: 100%;
-  margin-top: 12px;
-  margin-left: 160px;
+  padding-top: 160px;
+  margin-left: 180px;
   background-color: rgb(38, 38, 54);
+  position: relative;
 }
 .slider-container {
   display: block;

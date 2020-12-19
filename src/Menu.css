@@ -1,5 +1,12 @@
+nav {
+  width: 1200px;
+}
 .navbar {
   margin-bottom: 40px;
+  position: fixed;
+  width: 1800px;
+  margin-top: -10px;
+  height: ;
 }
 
 .header-title-logo {
