@@ -13,7 +13,7 @@ function Gallery2() {
         {columns.map((column) => (
           <div className="column">
             {column.map((url) => (
-              <img src={"./gallery2/" + url} alt="" />
+              <img className="photo" src={"./gallery2/" + url} alt="" />
             ))}
           </div>
         ))}
