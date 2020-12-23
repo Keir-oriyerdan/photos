@@ -13,36 +13,40 @@ body {
   grid-template-rows: repeat(8, 5vw);
   grid-gap: 15px;
   margin-left: 150px;
-  margin-top: -50px;
+  display: flex;
+  flex-wrap: wrap;
   position: relative;
+  padding: 5px;
 }
 
 .row {
-  display: inline-flex;
   flex-wrap: wrap;
-  flex-direction: row-reverse;
+  margin: 5px;
   padding: 0 4px;
   align-content: flex-start;
-  height: 90vh;
 }
-img .icon {
+img {
+  margin: 5px;
 }
 
 .photo {
-  width: 650px;
-  height: 550px;
+  margin: 5px;
 }
 /* Create four equal columns that sits next to each other */
 .column {
-  flex: 100%;
   max-width: 100vh;
   padding: 0 4px;
-  width: 990vh;
+  height: 90vh;
+  margin: 5px;
+  padding-top: 200px;
+  margin-left: 150px;
 }
 
 .column img {
   margin-top: 8px;
   vertical-align: middle;
+  width: 40%;
+  height: 60%;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
