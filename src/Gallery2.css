@@ -19,27 +19,28 @@ body {
 }
 
 img {
-  margin: 5px;
+  margin: 4px;
+  border-radius: 9px;
 }
-
 .photo {
   margin: 5px;
 }
 /* Create four equal columns that sits next to each other */
 .column {
-  max-width: 100vh;
-  padding: 0 4px;
   height: 90vh;
   margin: 5px;
   padding-top: 200px;
-  margin-left: 150px;
+}
+
+.row {
+  flex-wrap: nowrap;
+  margin-left: 20px;
 }
 
 .column img {
   margin-top: 8px;
   vertical-align: middle;
-  width: 40%;
-  height: 60%;
+  height: auto;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -53,6 +54,5 @@ img {
 @media screen and (max-width: 600px) {
   .column {
     flex: 100%;
-    max-width: 100%;
   }
 }
