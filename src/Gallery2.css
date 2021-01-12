@@ -8,7 +8,6 @@ body {
 
 .gallery {
   background-color: rgb(38, 38, 54);
-
   grid-gap: 15px;
   margin-left: 150px;
   display: flex;
@@ -43,6 +42,23 @@ img {
   height: auto;
 }
 
+.columnmed {
+  height: 90vh;
+  margin: 5px;
+  padding-top: 200px;
+  padding-left: 130px;
+}
+
+.columnmed img {
+  margin-top: 8px;
+  vertical-align: middle;
+  height: 60%;
+}
+
+.photomed {
+  margin: 5px;
+}
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
@@ -53,6 +69,20 @@ img {
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column {
+    flex: 100%;
+  }
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .columnmed {
+    flex: 100%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .columnmed {
     flex: 100%;
   }
 }

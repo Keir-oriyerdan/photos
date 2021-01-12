@@ -11,9 +11,9 @@ function Gallery2() {
     <div ClassName="gallery">
       <div className="row">
         {columns.map((column) => (
-          <div className="column">
+          <div className="columnmed">
             {column.map((url) => (
-              <img className="photo" src={"./gallery2/" + url} alt="" />
+              <img className="photomed" src={"./gallery2/" + url} alt="" />
             ))}
           </div>
         ))}
