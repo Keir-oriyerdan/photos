@@ -50,12 +50,12 @@ let columns = [
 
 function Gallery2() {
   return (
-    <div ClassName="gallery">
+    <div className="gallery">
       <div className="row">
         {columns.map((column) => (
-          <div className="columnmed">
+          <div className="column">
             {column.map((url) => (
-              <img className="photomed" src={"./gallery2/" + url} alt="" />
+              <img src={"./gallery2/" + url} alt="" />
             ))}
           </div>
         ))}
