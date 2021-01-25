@@ -1,5 +1,6 @@
 import React from "react";
 import "./Gallery2.css";
+import Carousel from "react-images";
 
 let columns = [
   [
@@ -62,6 +63,17 @@ function Gallery2() {
       </div>
     </div>
   );
+}
+
+const url = [
+  { source: "path/to/image-1.jpg" },
+  { source: "path/to/image-2.jpg" },
+];
+
+class Component extends React.Component {
+  render() {
+    return <Carousel views={url} />;
+  }
 }
 
 export default Gallery2;
