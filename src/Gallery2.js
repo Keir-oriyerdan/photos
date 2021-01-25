@@ -50,9 +50,14 @@ let columns = [
 ];
 
 function Gallery2() {
+  const url = [
+    { source: "./gallery2/01.jpg" },
+    { source: "./gallery2/02.jpg" },
+  ];
   return (
     <div className="gallery">
       <div className="row">
+        <Carousel views={url} />;
         {columns.map((column) => (
           <div className="column">
             {column.map((url) => (
@@ -63,17 +68,6 @@ function Gallery2() {
       </div>
     </div>
   );
-}
-
-const url = [
-  { source: "path/to/image-1.jpg" },
-  { source: "path/to/image-2.jpg" },
-];
-
-class Component extends React.Component {
-  render() {
-    return <Carousel views={url} />;
-  }
 }
 
 export default Gallery2;
