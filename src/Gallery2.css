@@ -27,6 +27,7 @@ img:hover {
   margin: 4px;
   border-radius: 9px;
   opacity: 0.3;
+  cursor: pointer;
 }
 .photo {
   margin: 5px;
@@ -70,6 +71,7 @@ img:hover {
 .photomed:hover img {
   margin: 5px;
   opacity: 0.3;
+  cursor: pointer;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
