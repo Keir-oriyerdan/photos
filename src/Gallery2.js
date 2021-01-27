@@ -1,6 +1,6 @@
 import React from "react";
 import "./Gallery2.css";
-import Carousel from "react-images";
+import { SRLWrapper } from "simple-react-lightbox";
 
 let columns = [
   [
@@ -50,22 +50,19 @@ let columns = [
 ];
 
 function Gallery2() {
-  const url = [
-    { source: "./gallery2/01.jpg" },
-    { source: "./gallery2/02.jpg" },
-  ];
   return (
     <div className="gallery">
-      <div className="row">
-        <Carousel views={url} />;
-        {columns.map((column) => (
-          <div className="column">
-            {column.map((url) => (
-              <img src={"./gallery2/" + url} alt="" />
-            ))}
-          </div>
-        ))}
-      </div>
+      <SRLWrapper>
+        <div className="row">
+          {columns.map((column) => (
+            <div className="column">
+              {column.map((url) => (
+                <img src={"./gallery2/" + url} alt="" />
+              ))}
+            </div>
+          ))}
+        </div>
+      </SRLWrapper>
     </div>
   );
 }

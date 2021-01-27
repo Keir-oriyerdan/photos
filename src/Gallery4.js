@@ -1,5 +1,6 @@
 import React from "react";
 import "./Gallery2.css";
+import { SRLWrapper } from "simple-react-lightbox";
 
 let columns = [
   ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg"],
@@ -11,15 +12,17 @@ let columns = [
 function Gallery4() {
   return (
     <div className="gallery">
-      <div className="row">
-        {columns.map((column) => (
-          <div className="column">
-            {column.map((url) => (
-              <img className="photo" src={"./gallery4/" + url} alt="" />
-            ))}
-          </div>
-        ))}
-      </div>
+      <SRLWrapper>
+        <div className="row">
+          {columns.map((column) => (
+            <div className="column">
+              {column.map((url) => (
+                <img src={"./gallery4/" + url} alt="" />
+              ))}
+            </div>
+          ))}
+        </div>
+      </SRLWrapper>
     </div>
   );
 }
