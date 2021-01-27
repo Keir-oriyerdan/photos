@@ -10,7 +10,8 @@
     "react-dom": "^16.14.0",
     "react-popupbox": "^2.0.8",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.3"
+    "react-scripts": "3.4.3",
+    "simple-react-lightbox": "^3.5.5"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -15,6 +15,7 @@ import Galleries from "./Galleries";
 import About from "./About";
 import Contact from "./Contact";
 import Legaldisclaimer from "./Legaldisclaimer";
+import SimpleReactLightbox from 'simple-react-lightbox'
 
 const App = () => {
   return (
