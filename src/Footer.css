@@ -3,28 +3,20 @@ footer {
   height: 20px;
   position: relative;
   font-size: 17px;
-  text-align: center;
   margin-top: 90%;
   margin-left: 50%;
 }
 
 .rs-container2 {
-  margin-right: 70%;
+  padding: 0;
+  margin: 0;
 }
-
 .rs-container2 .rsicon {
-  padding: 5px;
+  padding: 4px;
 }
-
-img .rsicon {
-  padding: 23px;
-  margin-left: 23px;
-  padding-left: 34px;
-}
-
-.rsicon {
-  height: 25px;
-  width: 25px;
+.rs-container2 li {
+  display: inline;
+  list-style: none;
 }
 
 /* next code*/
