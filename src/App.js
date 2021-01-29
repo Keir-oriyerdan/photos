@@ -15,7 +15,7 @@ import Galleries from "./Galleries";
 import About from "./About";
 import Contact from "./Contact";
 import Legaldisclaimer from "./Legaldisclaimer";
-import SimpleReactLightbox from 'simple-react-lightbox'
+import SimpleReactLightbox from "simple-react-lightbox";
 
 const App = () => {
   return (
@@ -63,6 +63,13 @@ const App = () => {
         <Route exact path="/Legaldisclaimer">
           <Legaldisclaimer />
         </Route>
+        <Route
+          path="/privacy-policy"
+          component={() => {
+            window.location.href = "https://www.facebook.com/julhorn";
+            return null;
+          }}
+        />
       </Switch>
     </Router>
   );

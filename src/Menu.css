@@ -91,6 +91,10 @@ ul li img .rsicon {
   width: 25px;
 }
 
+a .link {
+  margin: 0 30;
+}
+
 a:visited {
   color: #d8d5df;
   text-decoration: none;
