@@ -16,6 +16,15 @@ body {
   margin-left: 140px;
 }
 
+.download {
+  background-color: rgb(110, 131, 150);
+  height: 25px;
+  border-radius: 4px;
+  padding: 3px;
+  text-decoration-color: black;
+  font-family: "Abril Fatface";
+}
+
 .navbar {
   background-color: rgb(241, 238, 234);
   display: flex;

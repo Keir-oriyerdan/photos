@@ -1,10 +1,14 @@
 import React from "react";
 import "./About.css";
 import portrait from "./images/portrait.png";
+import cv from "./images/cv.pdf";
 
 function Aboutroot() {
   return (
     <div className="allabout">
+      <a className="download" href="/cv.pdf" download>
+        MON CV
+      </a>
       <img className="idphoto" src={portrait} alt="portrait" />
       <p className="lorem">
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
