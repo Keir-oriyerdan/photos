@@ -1,129 +1,116 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Form.css";
-import ReactDOM from "react-dom";
+
 import background from "./images/background.jpg";
 
-class Form extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      mail: "",
-      newletter: false,
-    };
-    this.handleChange = this.handleChange.bind(this);
-  }
+const Form = () => {
+  const [formData, setFormData] = useState({
+    gender: "",
+    lastName: "",
+    firstName: "",
+    object: "",
+    mail: "",
+    country: "",
+    message: "",
+    newsletter: false,
+  });
 
-  handleChange(e) {
-    const mail = e.target.name;
-    const type = e.target.type;
-    const value = type === "checked" ? e.target.checked : e.target.value;
-    this.setState({
-      [mail]: value,
-    });
-  }
+  console.log(formData);
 
-  render() {
-    return (
-      <div className="form">
-        <img className="sidepic" src={background} alt="homepage" />
-        <div className="formbody">
-          <select value={this.state.nom}>
-            <option value="demo1">Mr</option>
-            <option value="demo2">Mme</option>
-            <option value="demo3">Mlle</option>
-          </select>
-          {JSON.stringify(this.state.nom)}
-          <label htmlFor="Name">Last name :</label>
-          <input
-            type="text"
-            id="nom"
-            name="nom"
-            value={this.state.nom}
-            onChange={this.handleChange}
-            multiple
-          />
-          <label htmlFor="Name">First name :</label>
-          <input type="text" id="prenom" name="prenom" />
-          <div>
-            <div className="objetradio">
-              <label htmlFor="Name">Object :</label>
-              <select value={this.state.nom}>
-                <option value="demo1">Infos</option>
-                <option value="demo2">Cost estimate</option>
-                <option value="demo3">Other</option>
-              </select>
-            </div>
-            <div className="radio">
-              <label>
-                <input type="radio" value="option1" checked={true} />
-                Past
-              </label>
-            </div>
-            <div className="radio">
-              <label>
-                <input type="radio" value="option2" />
-                Present
-              </label>
-            </div>
-            <div className="radio">
-              <label>Future</label>
-            </div>
-            <form method="post" action="traitement.php">
-              <p>
-                <label for="pays" className="pays">
-                  Where you come from ? ?
-                </label>
-                <br />
-                <select name="pays" id="pays">
-                  <option value="france">France</option>
-                  <option value="espagne">Spain</option>
-                  <option value="italie">Italy</option>
-                  <option value="royaume-uni">UK</option>
-                  <option value="canada">Canada</option>
-                  <option value="etats-unis">USA</option>
-                  <option value="chine">China</option>
-                  <option value="japon">Japan</option>
-                </select>
-              </p>
-            </form>
+  const handleChange = (event) => {
+    console.log(event.target.name);
+    setFormData({ ...formData, [event.target.name]: event.target.value });
+  };
+
+  return (
+    <div className="form">
+      <img className="sidepic" src={background} alt="homepage" />
+      <div className="formbody">
+        <select name="gender" value={formData.gender} onChange={handleChange}>
+          <option value="mr">Mr</option>
+          <option value="mme">Mme</option>
+          <option value="melle">Mlle</option>
+        </select>
+        <label htmlFor="Name">Last name :</label>
+        <input
+          type="text"
+          id="nom"
+          name="lastName"
+          value={formData.lastName}
+          onChange={handleChange}
+        />
+        <label htmlFor="Name">First name :</label>
+        <input
+          type="text"
+          id="prenom"
+          name="firstName"
+          value={formData.firstName}
+          onChange={handleChange}
+        />
+        <div>
+          <div className="objetradio">
+            <label htmlFor="Name">Object :</label>
+            <select
+              name="object"
+              value={formData.object}
+              onChange={handleChange}
+            >
+              <option value="infos">Infos</option>
+              <option value="cost estimate">Cost estimate</option>
+              <option value="other">Other</option>
+            </select>
           </div>
 
-          <form onSubmit={this.handleSubmit}>
-            <label>
-              {" "}
-              <p className="pays">What is your request ?</p>
-              <textarea
-                value={this.state.value}
-                onChange={this.handleChange}
-              />{" "}
+          <p>
+            <label for="pays" className="pays">
+              Where you come from ? ?
             </label>
-            <br></br>
-            <input type="submit" value="Envoyer" />
-          </form>
+            <br />
+            <select
+              name="country"
+              id="pays"
+              value={formData.country}
+              onChange={handleChange}
+            >
+              <option value="france">France</option>
+              <option value="espagne">Spain</option>
+              <option value="italie">Italy</option>
+              <option value="royaume-uni">UK</option>
+              <option value="canada">Canada</option>
+              <option value="etats-unis">USA</option>
+              <option value="chine">China</option>
+              <option value="japon">Japan</option>
+            </select>
+          </p>
         </div>
-        <div className="container-newletter">
-          <label htmlFor="mail">E-mail :</label>
-          <input
-            type="text"
-            value={this.state.mail}
-            onChange={this.handleChange}
-            id="mail"
-            name="mail"
-          />
-          <br></br>
-          <label htmlFor="newletter">S'abonner à la newletter :</label>
-          <input
-            type="checkbox"
-            checked={this.state.newletter}
-            onChange={this.handleChange}
-            id="newletter"
-            name="newletter"
-          />
-        </div>
-        {JSON.stringify(this.state)}
+
+        <label>
+          <p className="pays">What is your request ?</p>
+          <textarea />
+        </label>
+        <br />
+        <label htmlFor="mail">E-mail :</label>
+        <input
+          type="text"
+          id="mail"
+          name="mail"
+          value={formData.mail}
+          onChange={handleChange}
+        />
+        <br />
+        <label htmlFor="newletter">S'abonner à la newletter :</label>
+        <input
+          type="checkbox"
+          id="newletter"
+          name="newsletter"
+          value={formData.newsletter}
+          onChange={handleChange}
+        />
+        <br />
+        <input type="submit" value="Envoyer" />
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
 
 export default Form;
