@@ -6,9 +6,6 @@ import cv from "./images/cv.pdf";
 function Aboutroot() {
   return (
     <div className="allabout">
-      <a className="download" href="/cv.pdf" download>
-        MON CV
-      </a>
       <img className="idphoto" src={portrait} alt="portrait" />
       <p className="lorem">
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -19,6 +16,9 @@ function Aboutroot() {
         occaecat cupidatat non proident, sunt in culpa qui officia deserunt
         mollit anim id est laborum."
       </p>
+      <a className="download" alt="cv" href="/cv.pdf" download>
+        MON CV
+      </a>
     </div>
   );
 }
